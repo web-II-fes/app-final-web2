@@ -8,7 +8,7 @@ export class ServicioService{
             'Content-Type': 'application/json'
         })
     }
-    private personaUrl = 'http://localhost:3002/api/modules/pedidos/';
+    private personaUrl = 'http://localhost:3002/api/modules/paquetes/';
 
     constructor(private httpClient: HttpClient){}
 
